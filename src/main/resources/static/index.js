@@ -14,7 +14,7 @@ var users=[
 ]
  
 var id=0;
-function toggleuser(){
+function toggleUser(){
     id=(id+1)%2
 
     var userimage = document.getElementById("user-image");
