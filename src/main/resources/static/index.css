@@ -4,14 +4,15 @@ h1{
 }
 body{
     margin:0px;
-    background-color:rgb(216, 112, 112) ;
+    background-color:rgb(216, 166, 166) ;
 }
 .navbar{
     border-style:solid;
     border-width: 1px;
-    border-color: gray;
+    border-color: rgb(236, 228, 228);
     padding:20px;
     text-align: center;
+    background-color: rgb(227, 224, 224);
 }
 .navbar a{
     padding: 20px;
@@ -30,7 +31,16 @@ body{
     text-align: center;
     margin-top: 70px;
     overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
 }
 .card img{
     width: 100%;
+}
+.card button{
+    padding: 10px;
+    width: 80%;
+    border-radius: 8px;
+    border-style: none;
 }
