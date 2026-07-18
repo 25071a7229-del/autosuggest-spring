@@ -18,7 +18,7 @@ function toggleUser(){
     id=(id+1)%2
 
     var userimage = document.getElementById("user-image");
-    userimage.src= user[id].img;
+    userimage.src= users[id].img;
     var username=document.getElementById("user-name");
     username.innerHTML=users[id].name;
     var usergender = document.getElementById("user-gender");
