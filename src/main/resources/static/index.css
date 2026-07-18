@@ -4,7 +4,7 @@ h1{
 }
 body{
     margin:0px;
-    background-color:rgb(156, 148, 148) ;
+    background-color:rgb(216, 112, 112) ;
 }
 .navbar{
     border-style:solid;
@@ -22,4 +22,15 @@ body{
 .navbar a:hover{
     color:blue;
     background-color:aqua;
+}
+.card{
+    border: 1px solid black;
+    width: 350px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 70px;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
 }
